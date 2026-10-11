@@ -4,15 +4,15 @@ cask "tabla" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.1.0"
-  sha256 arm:   "bc6b512b80cd9b900deac0f1a3ae456df9832387794bb7bc30ac7fda5e8ab486",
-         intel: "b10ec8caf17322c1ffbe3bd5e79a2a70bacbf9cbaa658c3a8fab16a1ce5d06a3"
+  sha256 arm:   "1b37061016ac0ee0aea97ace505b65bd4a9d6a44800ca806d6e52b2f0b944609",
+         intel: ""
 
   url "https://github.com/naylinndev/tabla/releases/download/v#{version}/Tabla_#{version}_#{arch}.dmg"
   name "Tabla"
   desc "Free, open-source database client for PostgreSQL, MySQL, Oracle, SQLite and more"
   homepage "https://github.com/naylinndev/tabla"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Tabla.app"
   # Puts `tabla` on PATH so AI tools can run `tabla mcp`.
