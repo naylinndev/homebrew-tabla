@@ -4,8 +4,8 @@ cask "tabla" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.1.0"
-  sha256 arm:   "1b37061016ac0ee0aea97ace505b65bd4a9d6a44800ca806d6e52b2f0b944609",
-         intel: ""
+  sha256 arm:   "",
+         intel: "df69e4c015008aab795955685bac8807ccad7ffa44a619953725aebbd1e22b93"
 
   url "https://github.com/naylinndev/tabla/releases/download/v#{version}/Tabla_#{version}_#{arch}.dmg"
   name "Tabla"
